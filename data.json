@@ -1,0 +1,854 @@
+{
+  "site": "Dev Toolkit — all in one",
+  "version": 1,
+  "generated_from": "dev-toolkit.html",
+  "tool_count": 141,
+  "tools": [
+    {
+      "id": "t-rev",
+      "name": "Reverse text",
+      "group": "text",
+      "kind": "text"
+    },
+    {
+      "id": "t-sortaz",
+      "name": "Sort lines A–Z",
+      "group": "text",
+      "kind": "text"
+    },
+    {
+      "id": "t-sortza",
+      "name": "Sort lines Z–A",
+      "group": "text",
+      "kind": "text"
+    },
+    {
+      "id": "t-sortlen",
+      "name": "Sort by length",
+      "group": "text",
+      "kind": "text"
+    },
+    {
+      "id": "t-dedupe",
+      "name": "Duplicate lines hatao",
+      "group": "text",
+      "kind": "text"
+    },
+    {
+      "id": "t-shuffle",
+      "name": "Shuffle lines",
+      "group": "text",
+      "kind": "text"
+    },
+    {
+      "id": "t-trim",
+      "name": "Har line trim karo",
+      "group": "text",
+      "kind": "text"
+    },
+    {
+      "id": "t-noempty",
+      "name": "Khaali lines hatao",
+      "group": "text",
+      "kind": "text"
+    },
+    {
+      "id": "t-num",
+      "name": "Lines par number lagao",
+      "group": "text",
+      "kind": "text"
+    },
+    {
+      "id": "t-unnum",
+      "name": "Line numbers hatao",
+      "group": "text",
+      "kind": "text"
+    },
+    {
+      "id": "t-prefix",
+      "name": "Har line se pehle jodo",
+      "group": "text",
+      "kind": "pair"
+    },
+    {
+      "id": "t-suffix",
+      "name": "Har line ke baad jodo",
+      "group": "text",
+      "kind": "pair"
+    },
+    {
+      "id": "t-quote",
+      "name": "Har line ko quotes mein",
+      "group": "text",
+      "kind": "text"
+    },
+    {
+      "id": "t-unquote",
+      "name": "Quotes hatao",
+      "group": "text",
+      "kind": "text"
+    },
+    {
+      "id": "t-striphtml",
+      "name": "HTML tags hatao",
+      "group": "text",
+      "kind": "text"
+    },
+    {
+      "id": "t-stripmd",
+      "name": "Markdown hatao",
+      "group": "text",
+      "kind": "text"
+    },
+    {
+      "id": "t-collapse",
+      "name": "Extra spaces hatao",
+      "group": "text",
+      "kind": "text"
+    },
+    {
+      "id": "t-tabs2sp",
+      "name": "Tabs → spaces",
+      "group": "text",
+      "kind": "text"
+    },
+    {
+      "id": "t-sp2tabs",
+      "name": "Spaces → tabs",
+      "group": "text",
+      "kind": "text"
+    },
+    {
+      "id": "t-title",
+      "name": "Title Case",
+      "group": "text",
+      "kind": "text"
+    },
+    {
+      "id": "t-sentence",
+      "name": "Sentence case",
+      "group": "text",
+      "kind": "text"
+    },
+    {
+      "id": "t-snake",
+      "name": "snake_case",
+      "group": "text",
+      "kind": "text"
+    },
+    {
+      "id": "t-kebab",
+      "name": "kebab-case",
+      "group": "text",
+      "kind": "text"
+    },
+    {
+      "id": "t-camel",
+      "name": "camelCase",
+      "group": "text",
+      "kind": "text"
+    },
+    {
+      "id": "t-const",
+      "name": "CONSTANT_CASE",
+      "group": "text",
+      "kind": "text"
+    },
+    {
+      "id": "t-rot13",
+      "name": "ROT13",
+      "group": "text",
+      "kind": "text"
+    },
+    {
+      "id": "t-revwords",
+      "name": "Shabd ulta karo",
+      "group": "text",
+      "kind": "text"
+    },
+    {
+      "id": "t-emails",
+      "name": "Email nikaalo",
+      "group": "text",
+      "kind": "text"
+    },
+    {
+      "id": "t-urls",
+      "name": "URL nikaalo",
+      "group": "text",
+      "kind": "text"
+    },
+    {
+      "id": "t-numbers",
+      "name": "Numbers nikaalo",
+      "group": "text",
+      "kind": "text"
+    },
+    {
+      "id": "t-nopunct",
+      "name": "Punctuation hatao",
+      "group": "text",
+      "kind": "text"
+    },
+    {
+      "id": "t-single",
+      "name": "Sab ek line mein",
+      "group": "text",
+      "kind": "text"
+    },
+    {
+      "id": "t-wrap",
+      "name": "Text wrap (60 cols)",
+      "group": "text",
+      "kind": "text"
+    },
+    {
+      "id": "t-uniquewords",
+      "name": "Duplicate shabd hatao",
+      "group": "text",
+      "kind": "text"
+    },
+    {
+      "id": "c-jsonxml",
+      "name": "JSON → XML",
+      "group": "json",
+      "kind": "text"
+    },
+    {
+      "id": "c-tomljson",
+      "name": "TOML → JSON",
+      "group": "json",
+      "kind": "text"
+    },
+    {
+      "id": "c-inijson",
+      "name": "INI → JSON",
+      "group": "json",
+      "kind": "text"
+    },
+    {
+      "id": "c-jsonini",
+      "name": "JSON → INI",
+      "group": "json",
+      "kind": "text"
+    },
+    {
+      "id": "c-csvsql",
+      "name": "CSV → SQL INSERT",
+      "group": "json",
+      "kind": "text"
+    },
+    {
+      "id": "c-sqlcsv",
+      "name": "SQL → CSV",
+      "group": "json",
+      "kind": "text"
+    },
+    {
+      "id": "c-tablecsv",
+      "name": "HTML table → CSV",
+      "group": "json",
+      "kind": "text"
+    },
+    {
+      "id": "c-htmlmd",
+      "name": "HTML → Markdown",
+      "group": "text",
+      "kind": "text"
+    },
+    {
+      "id": "c-mdtext",
+      "name": "Markdown → plain text",
+      "group": "text",
+      "kind": "text"
+    },
+    {
+      "id": "c-jsonqs",
+      "name": "JSON → query string",
+      "group": "json",
+      "kind": "text"
+    },
+    {
+      "id": "c-qsjson",
+      "name": "Query string → JSON",
+      "group": "json",
+      "kind": "text"
+    },
+    {
+      "id": "c-jsonenv",
+      "name": "JSON → .env",
+      "group": "json",
+      "kind": "text"
+    },
+    {
+      "id": "c-envjson",
+      "name": ".env → JSON",
+      "group": "json",
+      "kind": "text"
+    },
+    {
+      "id": "c-textjsonstr",
+      "name": "Text → JSON string",
+      "group": "json",
+      "kind": "text"
+    },
+    {
+      "id": "c-jsonstrtext",
+      "name": "JSON string → text",
+      "group": "json",
+      "kind": "text"
+    },
+    {
+      "id": "c-binary",
+      "name": "Text → binary",
+      "group": "encode",
+      "kind": "text"
+    },
+    {
+      "id": "c-binarytext",
+      "name": "Binary → text",
+      "group": "encode",
+      "kind": "text"
+    },
+    {
+      "id": "c-octal",
+      "name": "Text → octal/hex",
+      "group": "encode",
+      "kind": "text"
+    },
+    {
+      "id": "c-hexrgb",
+      "name": "HEX → RGB",
+      "group": "design",
+      "kind": "text"
+    },
+    {
+      "id": "c-rgbhex",
+      "name": "RGB → HEX",
+      "group": "design",
+      "kind": "text"
+    },
+    {
+      "id": "c-hslhex",
+      "name": "HSL → HEX",
+      "group": "design",
+      "kind": "text"
+    },
+    {
+      "id": "c-cmyk",
+      "name": "RGB ↔ CMYK",
+      "group": "design",
+      "kind": "text"
+    },
+    {
+      "id": "g-str",
+      "name": "Random string",
+      "group": "util",
+      "kind": "form"
+    },
+    {
+      "id": "g-nums",
+      "name": "Random numbers",
+      "group": "util",
+      "kind": "form"
+    },
+    {
+      "id": "g-name",
+      "name": "Random Indian naam",
+      "group": "util",
+      "kind": "text"
+    },
+    {
+      "id": "g-address",
+      "name": "Random address",
+      "group": "util",
+      "kind": "text"
+    },
+    {
+      "id": "g-email",
+      "name": "Random email",
+      "group": "util",
+      "kind": "text"
+    },
+    {
+      "id": "g-phone",
+      "name": "Random mobile number",
+      "group": "util",
+      "kind": "text"
+    },
+    {
+      "id": "g-passphrase",
+      "name": "Passphrase generator",
+      "group": "util",
+      "kind": "text"
+    },
+    {
+      "id": "g-dice",
+      "name": "Dice roller",
+      "group": "util",
+      "kind": "text"
+    },
+    {
+      "id": "g-coin",
+      "name": "Coin flip",
+      "group": "util",
+      "kind": "text"
+    },
+    {
+      "id": "g-lottery",
+      "name": "Lottery numbers",
+      "group": "util",
+      "kind": "form"
+    },
+    {
+      "id": "t-sortnum",
+      "name": "Lines ko number se sort karo",
+      "group": "text",
+      "kind": "text"
+    },
+    {
+      "id": "t-revlines",
+      "name": "Line order ulta karo",
+      "group": "text",
+      "kind": "text"
+    },
+    {
+      "id": "c-csvmd",
+      "name": "CSV → Markdown table",
+      "group": "json",
+      "kind": "text"
+    },
+    {
+      "id": "g-color",
+      "name": "Random colour palette",
+      "group": "design",
+      "kind": "text"
+    },
+    {
+      "id": "c-caesar",
+      "name": "Caesar cipher",
+      "group": "encode",
+      "kind": "form"
+    },
+    {
+      "id": "c-atbash",
+      "name": "Atbash cipher",
+      "group": "encode",
+      "kind": "text"
+    },
+    {
+      "id": "c-rot47",
+      "name": "ROT47",
+      "group": "encode",
+      "kind": "text"
+    },
+    {
+      "id": "c-vigenere",
+      "name": "Vigenère cipher",
+      "group": "encode",
+      "kind": "form"
+    },
+    {
+      "id": "c-rail",
+      "name": "Rail fence cipher",
+      "group": "encode",
+      "kind": "pair"
+    },
+    {
+      "id": "c-bacon",
+      "name": "Bacon cipher",
+      "group": "encode",
+      "kind": "text"
+    },
+    {
+      "id": "c-a1z26",
+      "name": "A1Z26 (letters ↔ numbers)",
+      "group": "encode",
+      "kind": "form"
+    },
+    {
+      "id": "c-base32",
+      "name": "Base32 encode/decode",
+      "group": "encode",
+      "kind": "form"
+    },
+    {
+      "id": "c-base58",
+      "name": "Base58 encode/decode",
+      "group": "encode",
+      "kind": "form"
+    },
+    {
+      "id": "c-base64url",
+      "name": "Base64 URL-safe",
+      "group": "encode",
+      "kind": "form"
+    },
+    {
+      "id": "c-hexdec",
+      "name": "Hex ↔ decimal ↔ binary",
+      "group": "encode",
+      "kind": "text"
+    },
+    {
+      "id": "c-rot13b",
+      "name": "Reverse alphabet",
+      "group": "encode",
+      "kind": "text"
+    },
+    {
+      "id": "n-prime",
+      "name": "Prime checker",
+      "group": "calc",
+      "kind": "text"
+    },
+    {
+      "id": "n-primelist",
+      "name": "Prime numbers list",
+      "group": "calc",
+      "kind": "text"
+    },
+    {
+      "id": "n-gcd",
+      "name": "GCD aur LCM",
+      "group": "calc",
+      "kind": "pair"
+    },
+    {
+      "id": "n-fact",
+      "name": "Factorial",
+      "group": "calc",
+      "kind": "text"
+    },
+    {
+      "id": "n-fib",
+      "name": "Fibonacci series",
+      "group": "calc",
+      "kind": "text"
+    },
+    {
+      "id": "n-root",
+      "name": "Square root / cube root",
+      "group": "calc",
+      "kind": "text"
+    },
+    {
+      "id": "n-pctchange",
+      "name": "Percentage change",
+      "group": "calc",
+      "kind": "pair"
+    },
+    {
+      "id": "n-ratio",
+      "name": "Ratio simplifier",
+      "group": "calc",
+      "kind": "text"
+    },
+    {
+      "id": "n-round",
+      "name": "Rounding",
+      "group": "calc",
+      "kind": "form"
+    },
+    {
+      "id": "n-words",
+      "name": "Number to words (Indian)",
+      "group": "calc",
+      "kind": "text"
+    },
+    {
+      "id": "n-divis",
+      "name": "Divisibility checker",
+      "group": "calc",
+      "kind": "pair"
+    },
+    {
+      "id": "n-factors",
+      "name": "Factors aur even/odd",
+      "group": "calc",
+      "kind": "text"
+    },
+    {
+      "id": "n-stats",
+      "name": "Average / median / mode",
+      "group": "calc",
+      "kind": "text"
+    },
+    {
+      "id": "d-dow",
+      "name": "Day of week",
+      "group": "calc",
+      "kind": "text"
+    },
+    {
+      "id": "d-week",
+      "name": "Week number",
+      "group": "calc",
+      "kind": "text"
+    },
+    {
+      "id": "d-doy",
+      "name": "Day of year",
+      "group": "calc",
+      "kind": "text"
+    },
+    {
+      "id": "d-leap",
+      "name": "Leap year checker",
+      "group": "calc",
+      "kind": "text"
+    },
+    {
+      "id": "d-between",
+      "name": "Days between dates",
+      "group": "calc",
+      "kind": "form"
+    },
+    {
+      "id": "d-addmonths",
+      "name": "Date + months",
+      "group": "calc",
+      "kind": "form"
+    },
+    {
+      "id": "d-agemonths",
+      "name": "Age in months/weeks",
+      "group": "calc",
+      "kind": "text"
+    },
+    {
+      "id": "d-tz",
+      "name": "Time zone compare",
+      "group": "calc",
+      "kind": "form"
+    },
+    {
+      "id": "d-fmt",
+      "name": "Date format converter",
+      "group": "calc",
+      "kind": "text"
+    },
+    {
+      "id": "d-countdown",
+      "name": "Countdown to date",
+      "group": "calc",
+      "kind": "text"
+    },
+    {
+      "id": "d-hours",
+      "name": "Working hours",
+      "group": "calc",
+      "kind": "form"
+    },
+    {
+      "id": "d-duration",
+      "name": "Time add/subtract",
+      "group": "calc",
+      "kind": "form"
+    },
+    {
+      "id": "x-palin",
+      "name": "Palindrome checker",
+      "group": "text",
+      "kind": "text"
+    },
+    {
+      "id": "x-anagram",
+      "name": "Anagram checker",
+      "group": "text",
+      "kind": "pair"
+    },
+    {
+      "id": "x-perline",
+      "name": "Words per line",
+      "group": "text",
+      "kind": "text"
+    },
+    {
+      "id": "x-charfreq",
+      "name": "Character frequency",
+      "group": "text",
+      "kind": "text"
+    },
+    {
+      "id": "x-vowels",
+      "name": "Vowel / consonant count",
+      "group": "text",
+      "kind": "text"
+    },
+    {
+      "id": "x-longest",
+      "name": "Longest word",
+      "group": "text",
+      "kind": "text"
+    },
+    {
+      "id": "x-acronym",
+      "name": "Acronym generator",
+      "group": "text",
+      "kind": "text"
+    },
+    {
+      "id": "x-initials",
+      "name": "Initials",
+      "group": "text",
+      "kind": "text"
+    },
+    {
+      "id": "x-namesplit",
+      "name": "Name splitter",
+      "group": "text",
+      "kind": "text"
+    },
+    {
+      "id": "x-hashtag",
+      "name": "Hashtag generator",
+      "group": "text",
+      "kind": "text"
+    },
+    {
+      "id": "x-altcase",
+      "name": "aLtErNaTiNg case",
+      "group": "text",
+      "kind": "text"
+    },
+    {
+      "id": "x-wrapb",
+      "name": "Text ko quotes/brackets mein",
+      "group": "text",
+      "kind": "form"
+    },
+    {
+      "id": "x-dupwords",
+      "name": "Duplicate words count",
+      "group": "text",
+      "kind": "text"
+    },
+    {
+      "id": "k-shades",
+      "name": "Shades aur tints",
+      "group": "design",
+      "kind": "text"
+    },
+    {
+      "id": "k-complement",
+      "name": "Complementary colours",
+      "group": "design",
+      "kind": "text"
+    },
+    {
+      "id": "k-mix",
+      "name": "Colour mixer",
+      "group": "design",
+      "kind": "form"
+    },
+    {
+      "id": "k-random",
+      "name": "Random colour",
+      "group": "design",
+      "kind": "text"
+    },
+    {
+      "id": "k-analog",
+      "name": "Analogous colours",
+      "group": "design",
+      "kind": "text"
+    },
+    {
+      "id": "k-triadic",
+      "name": "Triadic colours",
+      "group": "design",
+      "kind": "text"
+    },
+    {
+      "id": "k-gradientstops",
+      "name": "Gradient stops",
+      "group": "design",
+      "kind": "form"
+    },
+    {
+      "id": "k-name",
+      "name": "Colour name finder",
+      "group": "design",
+      "kind": "text"
+    },
+    {
+      "id": "v-gitignore",
+      "name": ".gitignore generator",
+      "group": "web",
+      "kind": "form"
+    },
+    {
+      "id": "v-robots",
+      "name": "robots.txt generator",
+      "group": "web",
+      "kind": "form"
+    },
+    {
+      "id": "v-metatags",
+      "name": "Meta tags generator",
+      "group": "web",
+      "kind": "form"
+    },
+    {
+      "id": "v-ogtags",
+      "name": "Open Graph tags",
+      "group": "web",
+      "kind": "form"
+    },
+    {
+      "id": "v-tsinterface",
+      "name": "JSON → TypeScript",
+      "group": "web",
+      "kind": "text"
+    },
+    {
+      "id": "v-gostruct",
+      "name": "JSON → Go struct",
+      "group": "web",
+      "kind": "text"
+    },
+    {
+      "id": "v-pyclass",
+      "name": "JSON → Python dataclass",
+      "group": "web",
+      "kind": "text"
+    },
+    {
+      "id": "v-jsonsql",
+      "name": "JSON → CREATE TABLE",
+      "group": "web",
+      "kind": "text"
+    },
+    {
+      "id": "v-curlfetch",
+      "name": "cURL → fetch()",
+      "group": "web",
+      "kind": "text"
+    },
+    {
+      "id": "v-htmlboiler",
+      "name": "HTML boilerplate",
+      "group": "web",
+      "kind": "form"
+    },
+    {
+      "id": "v-htaccess",
+      "name": ".htaccess redirect",
+      "group": "web",
+      "kind": "form"
+    },
+    {
+      "id": "v-secret",
+      "name": "Random secret key",
+      "group": "util",
+      "kind": "form"
+    },
+    {
+      "id": "x-comma",
+      "name": "Lines → comma list",
+      "group": "text",
+      "kind": "text"
+    }
+  ]
+}
